@@ -220,7 +220,7 @@ def get_parameters():
 
     image_path = "picselartlogo.webp"  # Remplacez par le chemin de votre image WEBP
     image=Image.open(image_path)
-    image_resized = image.resize((250, 250))
+    image_resized = image.resize((100, 100))
 
     # Convertir l'image redimensionnée en un format compatible avec Tkinter (PhotoImage)
     image_tk = ImageTk.PhotoImage(image_resized)
@@ -378,4 +378,5 @@ if __name__ == "__main__":
     screen = pygame.display.set_mode((WINDOW_SIZE + 250, WINDOW_SIZE))  # Ajouter un espace à droite pour afficher les paramètres
     pygame.display.set_caption("Jeu de la Vie avec Couleurs et Paramètres")
     clock = pygame.time.Clock()
+
     main()
