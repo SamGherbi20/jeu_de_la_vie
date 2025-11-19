@@ -51,7 +51,7 @@ Clic-gauche (le jeu doit être en pause) : rajouter une graine/une frontière
 F : enlever toutes les frontières  
 B : switcher entre mode graine / mode frontière
 
-- Choisissez la fonction de génération
+- Choisissez la fonction de génération: un conseil, commencez avec Dirichlet n = 50
 - Modifiez les coefficients k/n
 - Choisissez la colormap
 - Choisissez la vitesse de génération
@@ -111,4 +111,5 @@ Nous avons ensuite combiné les deux programmes principaux afin d’utiliser le 
 - Respo Performances et Stabilité : Delmas Pierre
 - Respo Mathématiques : Gherbi Samuel 
 - Respo Innovation : Aupretre Damien
+
 - Respo Photo : Evreux Simon
